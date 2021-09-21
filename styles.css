@@ -1,0 +1,33 @@
+* {
+  margin: 0;
+}
+.header {
+  font-family: Verdana, Geneva, Tahoma, sans-serif;
+  text-align: center;
+  padding: 20px;
+  margin-bottom: 50px;
+}
+.infotabs {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+.filters {
+  display: flex;
+  justify-content: space-around;
+  margin-bottom: 50px;
+}
+table {
+  width: 90%;
+  margin-left: 5%;
+  border-collapse: collapse;
+}
+
+th {
+  height: 70px;
+}
+table,
+th,
+td {
+  border: 1px solid black;
+}
